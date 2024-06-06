@@ -3,8 +3,8 @@ import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
-  { id: nanoid(), href: '#skills', text: 'skills' },
   { id: nanoid(), href: '#about', text: 'about' },
+  { id: nanoid(), href: '#skills', text: 'skills' },
   { id: nanoid(), href: '#projects', text: 'projects' },
 ];
 
@@ -32,34 +32,26 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: 'src/assets/planetEARTH.jpg',
-    url: 'https://theplanetearth-1.netlify.app/',
-    github: 'https://github.com/aayushthakur1999',
-    title: 'the planet earth',
+    img: 'https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800',
+    url: 'https://react-projects.netlify.app/',
+    github: 'https://github.com/john-smilga',
+    title: 'first project',
     text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
   },
   {
     id: nanoid(),
-    img: 'src/assets/tenziesGame.png',
-    url: 'https://aayushthakur1999.github.io/tenzies/',
-    github: 'https://github.com/aayushthakur1999',
-    title: 'tenzies',
-    text: 'A project build using fundamental concepts of react like state, props, useState, useEffect and some other concepts of javascript. This project uses some small yet very handy libraries like Nanoid and React-Confetti.',
+    img: 'https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800',
+    url: 'https://react-projects.netlify.app/',
+    github: 'https://github.com/john-smilga',
+    title: 'second project',
+    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
   },
   {
     id: nanoid(),
-    img: 'src/assets/quiz.png',
-    url: 'https://aayushthakur1999.github.io/quizzical/',
-    github: 'https://github.com/aayushthakur1999',
-    title: 'Quizzical',
-    text: 'A project which uses most of the fundamental concepts of React like conditional rendering, props, useState, useEffect, useRef and an http library called axios for data fetching to create a quiz game which fetch questions from an API.',
-  },
-  {
-    id: nanoid(),
-    img: 'src/assets/unsplashImages.jpg',
-    url: 'https://image-search-app1.netlify.app/',
-    github: 'https://github.com/aayushthakur1999',
-    title: 'Unsplash Images',
-    text: 'This is a React App which uses things like ContextAPI, third party API and libraries like React Icons and React Query.',
+    img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
+    url: 'https://react-projects.netlify.app/',
+    github: 'https://github.com/john-smilga',
+    title: 'third project',
+    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
   },
 ];
