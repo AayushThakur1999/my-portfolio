@@ -1,6 +1,6 @@
 import { nanoid } from "nanoid";
 import { FaHtml5, FaJs, FaReact, FaJava, FaNode } from "react-icons/fa";
-import { SiTypescript, SiMongodb, SiMysql } from "react-icons/si";
+import { SiTypescript, SiMongodb, SiMysql, SiExpress } from "react-icons/si";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
@@ -57,5 +57,11 @@ export const skills = [
     title: "MySQL",
     icon: <SiMysql className="h-16 w-16 text-emerald-500" />,
     text: "Knowledge of MySQL, designing and managing relational databases to store and retrieve data for web applications.",
+  },
+  {
+    id: nanoid(),
+    title: "Express.js",
+    icon: <SiExpress className="h-16 w-16 text-emerald-500" />,
+    text: "Familiarity with Express.js, building robust and scalable back-end applications with a focus on routing and middleware.",
   },
 ];
